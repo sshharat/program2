@@ -16,6 +16,7 @@ public class Program2 {
         int month = sc.nextInt();
 
         System.out.print("Enter your birth day (1-31): ");
+        
         int day = sc.nextInt();
 
         LocalDate birthDate = LocalDate.of(year, month, day);
